@@ -1,0 +1,51 @@
+body{
+	font-family: Microsoft YaHei;
+	text-align: center;
+}
+
+#whole-page{
+	position: relative;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#start, #over{
+	display: inline-block;
+	margin-right: 20px;
+}
+#time-input, #score-input{
+	display: inline-block;
+}
+#state{
+	width: 80px;
+	margin-right: 20px;
+}
+#record-time{
+	margin-bottom: 10px;
+}
+.input{
+	width: 40px;
+}
+h3, #note{
+	text-align: left;
+}
+#map{
+	width: 360px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+.button{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 5px;
+	background-color: white;
+	outline: none;
+}
+.L{
+	margin-left: auto;
+	margin-right: auto;
+}
